@@ -1,0 +1,121 @@
+ul li{
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    text-align: left;
+    text-decoration-thickness: auto ;
+}
+.nav{
+    background-color: rgba(5, 189, 149, 0.74);
+    color:rgb(236, 229, 226);
+   
+    
+    padding-top: 1rem;
+    
+}
+.intro{
+    background-image: url(https://images.unsplash.com/photo-1541625602330-2277a4c46182?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y3ljbGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60 );
+    background-position-x: 50% center;
+    background-position-y: 50% center;
+    height: 30rem;
+    padding-top: 1rem;
+  
+
+
+}
+    
+  .intro h1{
+    background-color: rgba(0.5,0.5,0.5,0.5);
+    color:coral;
+    
+    font-size: 2rem;
+    margin-top: 10rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+  }  
+  body{
+    
+    background-color: lightsalmon;
+    display: block;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  h1{
+    font-size: 16px;
+    font-weight: 700;
+    margin-block-end: 0.67em;
+    margin-block-start: 0.67em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+  }
+  .sumary h2{
+    color: rgba(112, 102, 8, 0.767);
+  }
+
+  h2{
+    
+    font-weight: 700;
+    margin-block-end: 0.83em;
+    margin-block-start: 0.83em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+  }
+  .sumary p{
+    color: white;
+  }
+
+  a{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+ 
+  @media only screen and (max-width: 1048px){
+    .photos img {
+     margin-left: auto;
+     margin-right: auto;
+  }
+}
+  .photos img{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+  .testimonial{
+    border: rgba(0, 128, 128, 0.644);
+    height: 20rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    color: rgba(182, 166, 23, 0.767);
+  }
+  .sumary, .testimonial, .photos, .meetup{
+    margin: 4em auto;
+  }
+
+  .testimonial h1{
+    font-size: 2.5rem;
+  }
+
+  .meetup{
+    margin-bottom: 2rem;
+  }
+
+  .meetup img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;}
+
+    .meetup h1 {
+        color: rgba(112, 102, 8, 0.767);
+        text-align: center;
+    }
